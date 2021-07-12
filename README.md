@@ -3,7 +3,7 @@ Training ToDo app using Realm DB
 
 I'm using Realm DataBase to persist user's data. 
 
-For frontend part I used third-party libraries - ChameleonFramework and SwipeCellKit (deleting animation).
+For frontend part I used third-party libraries - ChameleonFramework(the background color of cells,navigation bar, the tint of titles) and SwipeCellKit (deleting animation).
 
 In order to make my code drier I made a super-class called SwipeTableViewController. It implements a common part for child-classes related to deleting cells and updating colors of the views.
 
